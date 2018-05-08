@@ -41,5 +41,16 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>#string in context of your app</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>#string in context of your app</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>#string in context of your app </string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>#string in context of your app </string>
+    <key>NSAppTransportSecurity</key>
+    <dict><key>NSAllowsArbitraryLoads</key><true/>
+    </dict>
 </dict>
 </plist>

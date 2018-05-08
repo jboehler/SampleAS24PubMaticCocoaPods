@@ -1,0 +1,1 @@
+../../../PubMaticSDK/PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/Models/PMNativeAssetResponse.h

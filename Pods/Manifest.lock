@@ -1,0 +1,26 @@
+PODS:
+  - PubMaticSDK (5.3.1):
+    - PubMaticSDK/BannerAds (= 5.3.1)
+    - PubMaticSDK/InterstitialAds (= 5.3.1)
+    - PubMaticSDK/NativeAds (= 5.3.1)
+  - PubMaticSDK/BannerAds (5.3.1):
+    - PubMaticSDK/Common
+  - PubMaticSDK/Common (5.3.1)
+  - PubMaticSDK/InterstitialAds (5.3.1):
+    - PubMaticSDK/BannerAds
+  - PubMaticSDK/NativeAds (5.3.1):
+    - PubMaticSDK/Common
+
+DEPENDENCIES:
+  - PubMaticSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PubMaticSDK
+
+SPEC CHECKSUMS:
+  PubMaticSDK: 4f9f714e810c2d111d6e67913b346d82e9bb9cd0
+
+PODFILE CHECKSUM: 2db2ea51f06b0209f60feb8b891b376e103c9ab1
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,1 @@
+../../../PubMaticSDK/PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/Models/PMAdDescriptor.h

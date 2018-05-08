@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0329642BF2B42E5A18DEDFDD0989EF0F /* PMMRAIDProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 245F75F8BBD10EFB9273CC40B7E60311 /* PMMRAIDProperties.m */; };
+		0B14C474087F48D79EDAAA26BD704EE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A7FDD5B2ECED452846F5A154B3BEFA /* CoreGraphics.framework */; };
+		0E2C9AC1E33CDB839347891D50F74DAE /* PMBaseAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F406445A8FCF0489C7A95578B632F141 /* PMBaseAdRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0EE448DA0D2880BA246BEA9E32E4F560 /* PMConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DFC2FD1E724850A036E5F9944482CC /* PMConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F23585FE298B52DB6733C9F8C89C03C /* PMNativeAdResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A41CFC4C355E10730CAA312A4D8E4CA0 /* PMNativeAdResponse.m */; };
+		12F937C3239AA8DE2BBAB594ABD26CD4 /* PMNativeAssetTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = F3BD25AE1363DDAB3F8FEE019E1D108F /* PMNativeAssetTypes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1551C5711E95A5BC7936099E1018570B /* PMBrowserBackPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = 72ED2D9F84D535D8A0D0CA99344CCF60 /* PMBrowserBackPNG.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AB6D515337BFBAF21B11F610C28E736 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589472EBBCE759EA73164EF10AB0E60E /* AdSupport.framework */; };
+		1E41A12CFD40FE1D1F49C52393789399 /* PMNativeAssetResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 368D487D7FDE13C102EDCEACF9A0E891 /* PMNativeAssetResponse.m */; };
+		1EB31C770C1687655682B7CDBE5BE2FB /* PMInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D47D6265DB468CB667E92D07ED64CE /* PMInterstitialAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F9D7D9D8FCF94342DC859A09711FEFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54CD4C0CF699861AE99837C97E8B102 /* UIKit.framework */; };
+		2A790F461C1F1F3B09C3B087E771DE96 /* PMNativeAdRRFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE6EEE4EAF50346EDBA94294EDCC730 /* PMNativeAdRRFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DBAD42CAD740BDAEB92CDDE3601ED6C /* PMNativeAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2263BBF14846EBD428A4489D98F9D6 /* PMNativeAd.m */; };
+		2ED1C2B008BBED54D52EA5FB6CCD9206 /* PMMRAIDBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F71EF7E5DC1B8C52B6D0D3AD047FA26 /* PMMRAIDBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FAE998767DD07DB6AC86F30596DFAE2 /* PMNativeAdConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 143F3AAF7381C98B37D3D32EF565EE49 /* PMNativeAdConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		389E23E2A611B95775B60B50E9C17FE8 /* PMMRAIDProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = A48C573612B11EFEF2E7F0EAD40DE476 /* PMMRAIDProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		390C81D1AB7012EE607EFC7E9753B0C6 /* PMSDKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B22B9DE92183B63B4120EDA0809263 /* PMSDKUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B20C77B7A9B95E6CC0738E80378C94A /* PMInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C5AA1A180105C063C0FE0035C39D8AF /* PMInterstitialAd.m */; };
+		3CA8BCD66DA0DA89EEA7FEFF0F2121E7 /* PMNativeAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9E424DA9410FCF10DC4179AE645E01 /* PMNativeAdRequest.m */; };
+		478F3F9BE4663D49FA65B547AFB751DF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7945516102EC7017602FA2372B1790 /* SystemConfiguration.framework */; };
+		47DC7F918357FB87B26DCFF24244B7F4 /* PMBannerRRFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 384D911D966A2975DDD085A16A36BCB3 /* PMBannerRRFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E4A224DD6049C8EEEA50F9ED8AF2F35 /* PMInterstitialAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E62C8E9074A107337E296B89C61BEC1E /* PMInterstitialAdDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F94EDAF86D2300BB37DE4A46F512AA5 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFA70DE130ADC05E51713152D57D176 /* EventKitUI.framework */; };
+		4FE53E7413EDBD47882A4C3314561799 /* PMError.h in Headers */ = {isa = PBXBuildFile; fileRef = F60E8317F9493C51780B9CE14AFE7B2C /* PMError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		515A402D6D46F5E74DDFB4F3AD300FE6 /* PMBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 797C9C54313C7F9EFF2CA30744C54600 /* PMBannerAdView.m */; };
+		56702142F54F64978AB4794AA25D6F87 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4F7D71B7ACD020810A23C217A2C05EA /* MessageUI.framework */; };
+		5D3DCACBE72A651922AF3AC43BCB9438 /* PMNetworkHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F4EB0A6793F65921D677470E30D079 /* PMNetworkHandler.m */; };
+		5F92BD83DC9E580CE3D8315D8746AE75 /* PubMaticSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9A9211A92E68B22F13DAB1FBCFF256 /* PubMaticSDK-dummy.m */; };
+		61A4E1AFCFD5A35BBF6771140D00F624 /* PMNativeAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F0092F451003026A38A6991B4FC61F /* PMNativeAdRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64D5F1DD8258B3D5518A449022CEDBDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90491FC34BB958882E0AA88858E69F1 /* Foundation.framework */; };
+		6866498D6D53A063B5EF9B2440EFB27F /* PMBaseAdRequestPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C63D71C1104DF9E7ADC0B9EB7B1DBD6C /* PMBaseAdRequestPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A194ABD17B5E41814CEC5E8A086EC7C /* UIWebView+PMBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B21223B21945EADCB7203DA6D559B7E /* UIWebView+PMBannerAdView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BAEDFF1847DEE58DD22DAD9351120AF /* PMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CD667358C942AF2E280A1E7685BF99 /* PMConstants.m */; };
+		864EB149C42E6089A064B4207511B2B8 /* PMInterstitialAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B10D1220ECA7FA7E5708FB3DEC064C5C /* PMInterstitialAdRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87B208B2C32B50A3465BCB5096333FEE /* UIWebView+PMBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = A31BEAE975E5B9CEC26DAF1A5916129A /* UIWebView+PMBannerAdView.m */; };
+		8833753EC81696AD83BA785FA4D1C2B9 /* PMLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6879B92791CE0B17434DF654AB7E6E /* PMLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F242377F4E9C368BCF2CCDC26FF52BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90491FC34BB958882E0AA88858E69F1 /* Foundation.framework */; };
+		8F846360E6530268EA5E6E4581BAF0B4 /* PMResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB877598A83AA201FA4997C46B42759 /* PMResponseParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90E755EFCC295D8F15BCC5B8785F2837 /* PMNativeAssetResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7502ED8AD1E25BB453BBCB8835EA021B /* PMNativeAssetResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92A5C235631B9D48F0747F80DC551958 /* PMBannerRRFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CBEFEDD6A1F5B17FE29654E41509AE /* PMBannerRRFormatter.m */; };
+		973F346ADAD945FD239128D9C1D2A61C /* PMMRAIDBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C692FF3F63EC3B63E8339EFE669B2F /* PMMRAIDBridge.m */; };
+		975D042AD52F10938638BBAAEF82AA7A /* PMBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 434BDAE2220777F292A8A1CD16C63F88 /* PMBannerAdView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98C7EA27C0CB08546C74B2F053271EDA /* PMBannerAdDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC8D6F11469241A5A9B4A042C550779 /* PMBannerAdDefaults.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A564F029C424D09B99A7C460BCA974BE /* PMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF2B2522E49361ED098B87934EE5647 /* PMLogger.m */; };
+		A77E7E6A6776BDE448EBF5272D90CC30 /* PMAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B7963AE5292CC4A297D95757CFD08E8F /* PMAdRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF46D3C59232B9FBFFA1B62D7738AEAF /* PMNativeAdResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AEF6F708E5628170463C0E1A100136 /* PMNativeAdResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFC5B20C75AB1635F98BDB592699436E /* PMBannerAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F8743E6A5E0A7999E520378AAE9A06 /* PMBannerAdRequest.m */; };
+		B18CC1683A3D983EE79ACEF3847CD09E /* PubMaticSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = B431AE13432FCE47293E8FF7663D8E43 /* PubMaticSDK.m */; };
+		B19B5E8AE716F5D02857A38D3A02A226 /* PMNetworkHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAC72CB0C4C27D62231452B75872B38 /* PMNetworkHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B737E4ED54F80500FB6A43AFC99A11BE /* Pods-SampleAS24PubMaticCocoaPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 385922BD5CDCEA193CFC9CD3C5F5DC18 /* Pods-SampleAS24PubMaticCocoaPods-dummy.m */; };
+		B85AF22C50D89AACF4CF57C423D5BD16 /* PMAdBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FCA135CD03D92B40B79F42A79596E8 /* PMAdBrowser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC6712BBCEB2EE085DDF0784DF8A33D9 /* PMBannerAdViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3F770BF3653FDA2FA19E52F811BB02 /* PMBannerAdViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD9DBD9A9A867D0703BEB709186AF6B6 /* PMNativeAd.h in Headers */ = {isa = PBXBuildFile; fileRef = FF52860218095114B4C9296948A16600 /* PMNativeAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BED467D8342D2F8622739D737B7A00CC /* PMAdDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F51D09781CD108ED5FA8BEA8F23213D8 /* PMAdDescriptor.m */; };
+		BED927A8BAFCA79D0BCE610E37609103 /* FoundationCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F437DB29622C5756CED49406BEB8B7B /* FoundationCategories.m */; };
+		BF948B094B67734BF6AD3466F75DAEEC /* PMModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6535FBFB0ADDC57307ABD2DF51EB4B /* PMModalViewController.m */; };
+		C14429BC24A6777AA6D70AFB741AD070 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B788C94735BA421BCFC7EA967705CB /* EventKit.framework */; };
+		C282B0AB52852E2D3D9485BF01EF5066 /* PMError.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E7DFBA25F4B5026A029909E38AB469 /* PMError.m */; };
+		C33C22D001345E02F9DF0AEB49E0E154 /* PMNativeAdRRFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2BED84C6E282198CCD22054066D573 /* PMNativeAdRRFormatter.m */; };
+		C4F0A4E6C60458808D5008647F9752C6 /* PMNativeAssetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16BF0B1234A635344B016F6BB39B0D /* PMNativeAssetRequest.m */; };
+		C895C053401C5D25C46B536A9A1C272D /* PMResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 45CDA5E8C0B933CFC1A7354BD836E82E /* PMResponseParser.m */; };
+		CC03477517D0F8F490902A12C677B273 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD36429ED7BB34BF01FFEBB256CDFA69 /* CoreTelephony.framework */; };
+		CC54634417F0954530592340A6227264 /* PMCommunicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C3D2BCA3C627E56EB70ECB67C008E49 /* PMCommunicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CF77DD4E754EF4456DB781F543705D8D /* PMAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F9576F9C38406FC5FD512E154B5E3FBB /* PMAdRequest.m */; };
+		CFD6238E52D42B6CD3D30ABEAA0F8A31 /* PMBrowserForwardPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC6E349857B278718D202FF9D493A9F /* PMBrowserForwardPNG.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D13C4CBFFAF5778B45D4AB3AA3F6998A /* RRFormatterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 05F8478672B48CC1EF917B33C71BC3D4 /* RRFormatterDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D19268AC40D9577AF1FA57EFF12DBB69 /* PMModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3A82499E1388A47A85FF661434FE52 /* PMModalViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D274B789DD7C84172BA068F85FDB71C1 /* PMCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD634B309780806E78ECD11B2383CC4 /* PMCommunicator.m */; };
+		D329946D3A241B303B29AD51027FD5D3 /* PMSDKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2ADB70EBA42A7BDCD53874DF2DB37C /* PMSDKUtil.m */; };
+		D9ABF7673AB82E25B0EC8E044D9C055B /* PMBaseAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A48ECA37EBEC176A9339FBAB8CB2D3EC /* PMBaseAdRequest.m */; };
+		DD542A45BB394628BEAA8B3C93BF4585 /* PubMaticSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 371E61320D55685BCF96C0E15F5445B2 /* PubMaticSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DE12A5D3BD9DEE8200C45B27E0043868 /* PMNativeAssetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE2DD5FA7C20829789D2D94975B7DA2 /* PMNativeAssetRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF7CA967347AA24BFDF0C89452448820 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A66248F95931555177A344D1F045CF /* CoreLocation.framework */; };
+		E24AD11838726C4B738F3FE8DA001EFC /* PMInterstitialAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBAF0794753E04D6B94B25600C6D6F9 /* PMInterstitialAdRequest.m */; };
+		EC03674058FC6D03F3DAED777A840C3D /* PMBannerAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E998482BF1C484320D1FA9BB3A56567 /* PMBannerAdRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2D42F87CDEAD23423B6E15FD942D0B0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E61FDD399B827A3B365BF4575BC1E08 /* WebKit.framework */; };
+		F5A1F948293054A7034CE76E31576610 /* PMAdResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = D00177BBD164B0E18B0BFD3CA6E35AAA /* PMAdResponse.m */; };
+		F6CB03DCC63583440C78E5E8D621B921 /* PMAdDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADC48E833FF896D1AADF0809AA23DA1 /* PMAdDescriptor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F83040B29042D0F1C25DFCC9EBA97C85 /* PMNativeAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F2374279864BEE570EA9CBED4E091E3C /* PMNativeAdDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8DA30506363FEAC3FC33C61AD61E10A /* PMAdResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DB77604173B522C5AA6B4A1CB65D975B /* PMAdResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FEE31CDDCC5315C9143902CDCDD34977 /* PMCloseButtonPNG.h in Headers */ = {isa = PBXBuildFile; fileRef = 35093AA5E93E7AB94C688DD2B7B3C3CA /* PMCloseButtonPNG.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FF142023E0F557D4634DF47C40439D1B /* FoundationCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D34CD0140DA613F50A7BEC4D0BA21F /* FoundationCategories.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFAF5C095A40ECB87D512B8D5783E824 /* PMAdBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4529D6A90282C9267887A60F0FDD3A38 /* PMAdBrowser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A827A9C9967193E95A0A1FF109DC0D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BADCD705A420BBF7510B4B8E66EF788;
+			remoteInfo = PubMaticSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F8478672B48CC1EF917B33C71BC3D4 /* RRFormatterDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RRFormatterDelegate.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/BaseClasses/RRFormatterDelegate.h"; sourceTree = "<group>"; };
+		0B21223B21945EADCB7203DA6D559B7E /* UIWebView+PMBannerAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+PMBannerAdView.h"; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/UI/UIWebView+PMBannerAdView.h"; sourceTree = "<group>"; };
+		0C3D2BCA3C627E56EB70ECB67C008E49 /* PMCommunicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMCommunicator.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/Network/PMCommunicator.h"; sourceTree = "<group>"; };
+		0F6535FBFB0ADDC57307ABD2DF51EB4B /* PMModalViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMModalViewController.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/UI/PMModalViewController.m"; sourceTree = "<group>"; };
+		13F4EB0A6793F65921D677470E30D079 /* PMNetworkHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMNetworkHandler.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/Network/PMNetworkHandler.m"; sourceTree = "<group>"; };
+		143F3AAF7381C98B37D3D32EF565EE49 /* PMNativeAdConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAdConstants.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PMNativeAdConstants.h"; sourceTree = "<group>"; };
+		1C5AA1A180105C063C0FE0035C39D8AF /* PMInterstitialAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMInterstitialAd.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMInterstitialAd/PMInterstitialAd.m"; sourceTree = "<group>"; };
+		1D2263BBF14846EBD428A4489D98F9D6 /* PMNativeAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMNativeAd.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PMNativeAd.m"; sourceTree = "<group>"; };
+		245F75F8BBD10EFB9273CC40B7E60311 /* PMMRAIDProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMMRAIDProperties.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/Models/PMMRAIDProperties.m"; sourceTree = "<group>"; };
+		28F8743E6A5E0A7999E520378AAE9A06 /* PMBannerAdRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMBannerAdRequest.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/PubMatic/PMBannerAdRequest.m"; sourceTree = "<group>"; };
+		2E9A9211A92E68B22F13DAB1FBCFF256 /* PubMaticSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PubMaticSDK-dummy.m"; sourceTree = "<group>"; };
+		2F437DB29622C5756CED49406BEB8B7B /* FoundationCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FoundationCategories.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/FoundationCategories.m"; sourceTree = "<group>"; };
+		32AEF6F708E5628170463C0E1A100136 /* PMNativeAdResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAdResponse.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/Models/PMNativeAdResponse.h"; sourceTree = "<group>"; };
+		32DFC2FD1E724850A036E5F9944482CC /* PMConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMConstants.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PubMaticCommon/PMConstants.h"; sourceTree = "<group>"; };
+		32E7DFBA25F4B5026A029909E38AB469 /* PMError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMError.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PMError.m"; sourceTree = "<group>"; };
+		35093AA5E93E7AB94C688DD2B7B3C3CA /* PMCloseButtonPNG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMCloseButtonPNG.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/Resources/PMCloseButtonPNG.h"; sourceTree = "<group>"; };
+		368D487D7FDE13C102EDCEACF9A0E891 /* PMNativeAssetResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMNativeAssetResponse.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/Models/PMNativeAssetResponse.m"; sourceTree = "<group>"; };
+		371E61320D55685BCF96C0E15F5445B2 /* PubMaticSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PubMaticSDK.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PubMaticSDK.h"; sourceTree = "<group>"; };
+		384D911D966A2975DDD085A16A36BCB3 /* PMBannerRRFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBannerRRFormatter.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/PubMatic/PMBannerRRFormatter.h"; sourceTree = "<group>"; };
+		385922BD5CDCEA193CFC9CD3C5F5DC18 /* Pods-SampleAS24PubMaticCocoaPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleAS24PubMaticCocoaPods-dummy.m"; sourceTree = "<group>"; };
+		388A8FB75480B5C01C591D77E70C45EA /* Pods-SampleAS24PubMaticCocoaPods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAS24PubMaticCocoaPods-resources.sh"; sourceTree = "<group>"; };
+		3C16BF0B1234A635344B016F6BB39B0D /* PMNativeAssetRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMNativeAssetRequest.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/Models/PMNativeAssetRequest.m"; sourceTree = "<group>"; };
+		3E3F770BF3653FDA2FA19E52F811BB02 /* PMBannerAdViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBannerAdViewDelegate.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/UI/PMBannerAdViewDelegate.h"; sourceTree = "<group>"; };
+		3F71EF7E5DC1B8C52B6D0D3AD047FA26 /* PMMRAIDBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMMRAIDBridge.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/PMMRAIDBridge.h"; sourceTree = "<group>"; };
+		434BDAE2220777F292A8A1CD16C63F88 /* PMBannerAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBannerAdView.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/UI/PMBannerAdView.h"; sourceTree = "<group>"; };
+		44D34CD0140DA613F50A7BEC4D0BA21F /* FoundationCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FoundationCategories.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/FoundationCategories.h"; sourceTree = "<group>"; };
+		4529D6A90282C9267887A60F0FDD3A38 /* PMAdBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMAdBrowser.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/UI/PMAdBrowser.m"; sourceTree = "<group>"; };
+		45CDA5E8C0B933CFC1A7354BD836E82E /* PMResponseParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMResponseParser.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PMResponseParser.m"; sourceTree = "<group>"; };
+		4FE6EEE4EAF50346EDBA94294EDCC730 /* PMNativeAdRRFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAdRRFormatter.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PubMatic/PMNativeAdRRFormatter.h"; sourceTree = "<group>"; };
+		50C692FF3F63EC3B63E8339EFE669B2F /* PMMRAIDBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMMRAIDBridge.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/PMMRAIDBridge.m"; sourceTree = "<group>"; };
+		589472EBBCE759EA73164EF10AB0E60E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		59B788C94735BA421BCFC7EA967705CB /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
+		5CAC72CB0C4C27D62231452B75872B38 /* PMNetworkHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNetworkHandler.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/Network/PMNetworkHandler.h"; sourceTree = "<group>"; };
+		60CBEFEDD6A1F5B17FE29654E41509AE /* PMBannerRRFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMBannerRRFormatter.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/PubMatic/PMBannerRRFormatter.m"; sourceTree = "<group>"; };
+		716243E5CC7DCA101F8E08AE2243E242 /* Pods-SampleAS24PubMaticCocoaPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAS24PubMaticCocoaPods.debug.xcconfig"; sourceTree = "<group>"; };
+		72ED2D9F84D535D8A0D0CA99344CCF60 /* PMBrowserBackPNG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBrowserBackPNG.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/Resources/PMBrowserBackPNG.h"; sourceTree = "<group>"; };
+		7502ED8AD1E25BB453BBCB8835EA021B /* PMNativeAssetResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAssetResponse.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/Models/PMNativeAssetResponse.h"; sourceTree = "<group>"; };
+		76CD667358C942AF2E280A1E7685BF99 /* PMConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMConstants.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PubMaticCommon/PMConstants.m"; sourceTree = "<group>"; };
+		785BADC4FB56B6591F119D9642F03C33 /* Pods-SampleAS24PubMaticCocoaPods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleAS24PubMaticCocoaPods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		797C9C54313C7F9EFF2CA30744C54600 /* PMBannerAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMBannerAdView.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/UI/PMBannerAdView.m"; sourceTree = "<group>"; };
+		7E61FDD399B827A3B365BF4575BC1E08 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A38DAF3494C8495195C7CF8CD69BCEB /* libPods-SampleAS24PubMaticCocoaPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SampleAS24PubMaticCocoaPods.a"; path = "libPods-SampleAS24PubMaticCocoaPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADC48E833FF896D1AADF0809AA23DA1 /* PMAdDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMAdDescriptor.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/Models/PMAdDescriptor.h"; sourceTree = "<group>"; };
+		8E998482BF1C484320D1FA9BB3A56567 /* PMBannerAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBannerAdRequest.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/PubMatic/PMBannerAdRequest.h"; sourceTree = "<group>"; };
+		92FCA135CD03D92B40B79F42A79596E8 /* PMAdBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMAdBrowser.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/UI/PMAdBrowser.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D47D6265DB468CB667E92D07ED64CE /* PMInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMInterstitialAd.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMInterstitialAd/PMInterstitialAd.h"; sourceTree = "<group>"; };
+		95B22B9DE92183B63B4120EDA0809263 /* PMSDKUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMSDKUtil.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PMSDKUtil.h"; sourceTree = "<group>"; };
+		96F0092F451003026A38A6991B4FC61F /* PMNativeAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAdRequest.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PubMatic/PMNativeAdRequest.h"; sourceTree = "<group>"; };
+		9AD634B309780806E78ECD11B2383CC4 /* PMCommunicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMCommunicator.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/Network/PMCommunicator.m"; sourceTree = "<group>"; };
+		9C9E424DA9410FCF10DC4179AE645E01 /* PMNativeAdRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMNativeAdRequest.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PubMatic/PMNativeAdRequest.m"; sourceTree = "<group>"; };
+		A1A1680BC3F45692A531F070CDD2E599 /* PubMaticSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PubMaticSDK-prefix.pch"; sourceTree = "<group>"; };
+		A31BEAE975E5B9CEC26DAF1A5916129A /* UIWebView+PMBannerAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+PMBannerAdView.m"; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/UI/UIWebView+PMBannerAdView.m"; sourceTree = "<group>"; };
+		A41CFC4C355E10730CAA312A4D8E4CA0 /* PMNativeAdResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMNativeAdResponse.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/Models/PMNativeAdResponse.m"; sourceTree = "<group>"; };
+		A48C573612B11EFEF2E7F0EAD40DE476 /* PMMRAIDProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMMRAIDProperties.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/Models/PMMRAIDProperties.h"; sourceTree = "<group>"; };
+		A48ECA37EBEC176A9339FBAB8CB2D3EC /* PMBaseAdRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMBaseAdRequest.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/BaseClasses/PMBaseAdRequest.m"; sourceTree = "<group>"; };
+		A977143E4E20270B76694B04F0B15E88 /* Pods-SampleAS24PubMaticCocoaPods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleAS24PubMaticCocoaPods-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACBAF0794753E04D6B94B25600C6D6F9 /* PMInterstitialAdRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMInterstitialAdRequest.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMInterstitialAd/PubMatic/PMInterstitialAdRequest.m"; sourceTree = "<group>"; };
+		AD36429ED7BB34BF01FFEBB256CDFA69 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		B10D1220ECA7FA7E5708FB3DEC064C5C /* PMInterstitialAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMInterstitialAdRequest.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMInterstitialAd/PubMatic/PMInterstitialAdRequest.h"; sourceTree = "<group>"; };
+		B431AE13432FCE47293E8FF7663D8E43 /* PubMaticSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PubMaticSDK.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PubMaticSDK.m"; sourceTree = "<group>"; };
+		B7963AE5292CC4A297D95757CFD08E8F /* PMAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMAdRequest.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PubMaticCommon/PMAdRequest.h"; sourceTree = "<group>"; };
+		B90491FC34BB958882E0AA88858E69F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B9A7FDD5B2ECED452846F5A154B3BEFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		BB3A82499E1388A47A85FF661434FE52 /* PMModalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMModalViewController.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/UI/PMModalViewController.h"; sourceTree = "<group>"; };
+		C54CD4C0CF699861AE99837C97E8B102 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C63D71C1104DF9E7ADC0B9EB7B1DBD6C /* PMBaseAdRequestPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBaseAdRequestPrivate.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/BaseClasses/PMBaseAdRequestPrivate.h"; sourceTree = "<group>"; };
+		CCF2B2522E49361ED098B87934EE5647 /* PMLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMLogger.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PMLogger.m"; sourceTree = "<group>"; };
+		CEFA70DE130ADC05E51713152D57D176 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/EventKitUI.framework; sourceTree = DEVELOPER_DIR; };
+		CFE2DD5FA7C20829789D2D94975B7DA2 /* PMNativeAssetRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAssetRequest.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/Models/PMNativeAssetRequest.h"; sourceTree = "<group>"; };
+		D00177BBD164B0E18B0BFD3CA6E35AAA /* PMAdResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMAdResponse.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/BaseClasses/PMAdResponse.m"; sourceTree = "<group>"; };
+		D7A66248F95931555177A344D1F045CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		DB77604173B522C5AA6B4A1CB65D975B /* PMAdResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMAdResponse.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/BaseClasses/PMAdResponse.h"; sourceTree = "<group>"; };
+		DDC6E349857B278718D202FF9D493A9F /* PMBrowserForwardPNG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBrowserForwardPNG.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/Resources/PMBrowserForwardPNG.h"; sourceTree = "<group>"; };
+		DEEF07CEEBB587A58A29EF8FD0967E67 /* Pods-SampleAS24PubMaticCocoaPods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleAS24PubMaticCocoaPods-frameworks.sh"; sourceTree = "<group>"; };
+		E62C8E9074A107337E296B89C61BEC1E /* PMInterstitialAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMInterstitialAdDelegate.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMInterstitialAd/PMInterstitialAdDelegate.h"; sourceTree = "<group>"; };
+		EBB877598A83AA201FA4997C46B42759 /* PMResponseParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMResponseParser.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PMResponseParser.h"; sourceTree = "<group>"; };
+		EC6003394AE190854E613B587EDBF4FD /* Pods-SampleAS24PubMaticCocoaPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleAS24PubMaticCocoaPods.release.xcconfig"; sourceTree = "<group>"; };
+		ED6879B92791CE0B17434DF654AB7E6E /* PMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMLogger.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PMLogger.h"; sourceTree = "<group>"; };
+		EF23678A7FE04A230E40002FA383753F /* libPubMaticSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPubMaticSDK.a; path = libPubMaticSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2374279864BEE570EA9CBED4E091E3C /* PMNativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAdDelegate.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PMNativeAdDelegate.h"; sourceTree = "<group>"; };
+		F290E9F9C7E7C44B99AD741AB787BB7F /* PubMaticSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PubMaticSDK.xcconfig; sourceTree = "<group>"; };
+		F3BD25AE1363DDAB3F8FEE019E1D108F /* PMNativeAssetTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAssetTypes.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PMNativeAssetTypes.h"; sourceTree = "<group>"; };
+		F406445A8FCF0489C7A95578B632F141 /* PMBaseAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBaseAdRequest.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/BaseClasses/PMBaseAdRequest.h"; sourceTree = "<group>"; };
+		F4F7D71B7ACD020810A23C217A2C05EA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = DEVELOPER_DIR; };
+		F51D09781CD108ED5FA8BEA8F23213D8 /* PMAdDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMAdDescriptor.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/Models/PMAdDescriptor.m"; sourceTree = "<group>"; };
+		F60E8317F9493C51780B9CE14AFE7B2C /* PMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMError.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PMError.h"; sourceTree = "<group>"; };
+		F9576F9C38406FC5FD512E154B5E3FBB /* PMAdRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMAdRequest.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PubMaticCommon/PMAdRequest.m"; sourceTree = "<group>"; };
+		FC2BED84C6E282198CCD22054066D573 /* PMNativeAdRRFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMNativeAdRRFormatter.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PubMatic/PMNativeAdRRFormatter.m"; sourceTree = "<group>"; };
+		FD2ADB70EBA42A7BDCD53874DF2DB37C /* PMSDKUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMSDKUtil.m; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/Common/PMSDKUtil.m"; sourceTree = "<group>"; };
+		FE7945516102EC7017602FA2372B1790 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FF52860218095114B4C9296948A16600 /* PMNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMNativeAd.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMNativeAd/PMNativeAd.h"; sourceTree = "<group>"; };
+		FFC8D6F11469241A5A9B4A042C550779 /* PMBannerAdDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMBannerAdDefaults.h; path = "PubMatic-iOS-SDK/PubMaticSDK/PubMaticSDK/PMBannerAdView/PMBannerAdDefaults.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B45A9F4B47FD39FBE84879CA21CE24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F242377F4E9C368BCF2CCDC26FF52BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB68D75E3E1F28EB403C8C3A3272360D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB6D515337BFBAF21B11F610C28E736 /* AdSupport.framework in Frameworks */,
+				0B14C474087F48D79EDAAA26BD704EE6 /* CoreGraphics.framework in Frameworks */,
+				DF7CA967347AA24BFDF0C89452448820 /* CoreLocation.framework in Frameworks */,
+				CC03477517D0F8F490902A12C677B273 /* CoreTelephony.framework in Frameworks */,
+				C14429BC24A6777AA6D70AFB741AD070 /* EventKit.framework in Frameworks */,
+				4F94EDAF86D2300BB37DE4A46F512AA5 /* EventKitUI.framework in Frameworks */,
+				64D5F1DD8258B3D5518A449022CEDBDB /* Foundation.framework in Frameworks */,
+				56702142F54F64978AB4794AA25D6F87 /* MessageUI.framework in Frameworks */,
+				478F3F9BE4663D49FA65B547AFB751DF /* SystemConfiguration.framework in Frameworks */,
+				1F9D7D9D8FCF94342DC859A09711FEFB /* UIKit.framework in Frameworks */,
+				F2D42F87CDEAD23423B6E15FD942D0B0 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7221DB25443D02F1D0678042099018 /* BannerAds */ = {
+			isa = PBXGroup;
+			children = (
+				8ADC48E833FF896D1AADF0809AA23DA1 /* PMAdDescriptor.h */,
+				F51D09781CD108ED5FA8BEA8F23213D8 /* PMAdDescriptor.m */,
+				FFC8D6F11469241A5A9B4A042C550779 /* PMBannerAdDefaults.h */,
+				8E998482BF1C484320D1FA9BB3A56567 /* PMBannerAdRequest.h */,
+				28F8743E6A5E0A7999E520378AAE9A06 /* PMBannerAdRequest.m */,
+				434BDAE2220777F292A8A1CD16C63F88 /* PMBannerAdView.h */,
+				797C9C54313C7F9EFF2CA30744C54600 /* PMBannerAdView.m */,
+				3E3F770BF3653FDA2FA19E52F811BB02 /* PMBannerAdViewDelegate.h */,
+				384D911D966A2975DDD085A16A36BCB3 /* PMBannerRRFormatter.h */,
+				60CBEFEDD6A1F5B17FE29654E41509AE /* PMBannerRRFormatter.m */,
+				35093AA5E93E7AB94C688DD2B7B3C3CA /* PMCloseButtonPNG.h */,
+				BB3A82499E1388A47A85FF661434FE52 /* PMModalViewController.h */,
+				0F6535FBFB0ADDC57307ABD2DF51EB4B /* PMModalViewController.m */,
+				3F71EF7E5DC1B8C52B6D0D3AD047FA26 /* PMMRAIDBridge.h */,
+				50C692FF3F63EC3B63E8339EFE669B2F /* PMMRAIDBridge.m */,
+				A48C573612B11EFEF2E7F0EAD40DE476 /* PMMRAIDProperties.h */,
+				245F75F8BBD10EFB9273CC40B7E60311 /* PMMRAIDProperties.m */,
+				0B21223B21945EADCB7203DA6D559B7E /* UIWebView+PMBannerAdView.h */,
+				A31BEAE975E5B9CEC26DAF1A5916129A /* UIWebView+PMBannerAdView.m */,
+			);
+			name = BannerAds;
+			sourceTree = "<group>";
+		};
+		5CCECAF5BA4926DD77BCB85448C51C1C /* PubMaticSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3F7221DB25443D02F1D0678042099018 /* BannerAds */,
+				C74FFC10469CF5922B82A083D2A4A64A /* Common */,
+				95F50C739370744301BE553FB84B27F1 /* InterstitialAds */,
+				B290A1D4AF007E58341FF4BC906F7C36 /* NativeAds */,
+				9302FE2EF42B5E34D9A881F50DF7ABAC /* Support Files */,
+			);
+			name = PubMaticSDK;
+			path = PubMaticSDK;
+			sourceTree = "<group>";
+		};
+		5F8E2C082C0A0EDE41058BA1BDB8DDEE /* Pods-SampleAS24PubMaticCocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				785BADC4FB56B6591F119D9642F03C33 /* Pods-SampleAS24PubMaticCocoaPods-acknowledgements.markdown */,
+				A977143E4E20270B76694B04F0B15E88 /* Pods-SampleAS24PubMaticCocoaPods-acknowledgements.plist */,
+				385922BD5CDCEA193CFC9CD3C5F5DC18 /* Pods-SampleAS24PubMaticCocoaPods-dummy.m */,
+				DEEF07CEEBB587A58A29EF8FD0967E67 /* Pods-SampleAS24PubMaticCocoaPods-frameworks.sh */,
+				388A8FB75480B5C01C591D77E70C45EA /* Pods-SampleAS24PubMaticCocoaPods-resources.sh */,
+				716243E5CC7DCA101F8E08AE2243E242 /* Pods-SampleAS24PubMaticCocoaPods.debug.xcconfig */,
+				EC6003394AE190854E613B587EDBF4FD /* Pods-SampleAS24PubMaticCocoaPods.release.xcconfig */,
+			);
+			name = "Pods-SampleAS24PubMaticCocoaPods";
+			path = "Target Support Files/Pods-SampleAS24PubMaticCocoaPods";
+			sourceTree = "<group>";
+		};
+		71B09A9622D640905AB40F275FC14D6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8E2C082C0A0EDE41058BA1BDB8DDEE /* Pods-SampleAS24PubMaticCocoaPods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7873029B25E9E1E358409AA758F2E832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CCECAF5BA4926DD77BCB85448C51C1C /* PubMaticSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EB57DDB3388FBC701046A1E93218737F /* Frameworks */,
+				7873029B25E9E1E358409AA758F2E832 /* Pods */,
+				DA13BDFDA26500C83D9B0519B7E59E0E /* Products */,
+				71B09A9622D640905AB40F275FC14D6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9302FE2EF42B5E34D9A881F50DF7ABAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F290E9F9C7E7C44B99AD741AB787BB7F /* PubMaticSDK.xcconfig */,
+				2E9A9211A92E68B22F13DAB1FBCFF256 /* PubMaticSDK-dummy.m */,
+				A1A1680BC3F45692A531F070CDD2E599 /* PubMaticSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PubMaticSDK";
+			sourceTree = "<group>";
+		};
+		95F50C739370744301BE553FB84B27F1 /* InterstitialAds */ = {
+			isa = PBXGroup;
+			children = (
+				93D47D6265DB468CB667E92D07ED64CE /* PMInterstitialAd.h */,
+				1C5AA1A180105C063C0FE0035C39D8AF /* PMInterstitialAd.m */,
+				E62C8E9074A107337E296B89C61BEC1E /* PMInterstitialAdDelegate.h */,
+				B10D1220ECA7FA7E5708FB3DEC064C5C /* PMInterstitialAdRequest.h */,
+				ACBAF0794753E04D6B94B25600C6D6F9 /* PMInterstitialAdRequest.m */,
+			);
+			name = InterstitialAds;
+			sourceTree = "<group>";
+		};
+		B290A1D4AF007E58341FF4BC906F7C36 /* NativeAds */ = {
+			isa = PBXGroup;
+			children = (
+				FF52860218095114B4C9296948A16600 /* PMNativeAd.h */,
+				1D2263BBF14846EBD428A4489D98F9D6 /* PMNativeAd.m */,
+				143F3AAF7381C98B37D3D32EF565EE49 /* PMNativeAdConstants.h */,
+				F2374279864BEE570EA9CBED4E091E3C /* PMNativeAdDelegate.h */,
+				96F0092F451003026A38A6991B4FC61F /* PMNativeAdRequest.h */,
+				9C9E424DA9410FCF10DC4179AE645E01 /* PMNativeAdRequest.m */,
+				32AEF6F708E5628170463C0E1A100136 /* PMNativeAdResponse.h */,
+				A41CFC4C355E10730CAA312A4D8E4CA0 /* PMNativeAdResponse.m */,
+				4FE6EEE4EAF50346EDBA94294EDCC730 /* PMNativeAdRRFormatter.h */,
+				FC2BED84C6E282198CCD22054066D573 /* PMNativeAdRRFormatter.m */,
+				CFE2DD5FA7C20829789D2D94975B7DA2 /* PMNativeAssetRequest.h */,
+				3C16BF0B1234A635344B016F6BB39B0D /* PMNativeAssetRequest.m */,
+				7502ED8AD1E25BB453BBCB8835EA021B /* PMNativeAssetResponse.h */,
+				368D487D7FDE13C102EDCEACF9A0E891 /* PMNativeAssetResponse.m */,
+				F3BD25AE1363DDAB3F8FEE019E1D108F /* PMNativeAssetTypes.h */,
+				EBB877598A83AA201FA4997C46B42759 /* PMResponseParser.h */,
+				45CDA5E8C0B933CFC1A7354BD836E82E /* PMResponseParser.m */,
+			);
+			name = NativeAds;
+			sourceTree = "<group>";
+		};
+		C74FFC10469CF5922B82A083D2A4A64A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				44D34CD0140DA613F50A7BEC4D0BA21F /* FoundationCategories.h */,
+				2F437DB29622C5756CED49406BEB8B7B /* FoundationCategories.m */,
+				92FCA135CD03D92B40B79F42A79596E8 /* PMAdBrowser.h */,
+				4529D6A90282C9267887A60F0FDD3A38 /* PMAdBrowser.m */,
+				B7963AE5292CC4A297D95757CFD08E8F /* PMAdRequest.h */,
+				F9576F9C38406FC5FD512E154B5E3FBB /* PMAdRequest.m */,
+				DB77604173B522C5AA6B4A1CB65D975B /* PMAdResponse.h */,
+				D00177BBD164B0E18B0BFD3CA6E35AAA /* PMAdResponse.m */,
+				F406445A8FCF0489C7A95578B632F141 /* PMBaseAdRequest.h */,
+				A48ECA37EBEC176A9339FBAB8CB2D3EC /* PMBaseAdRequest.m */,
+				C63D71C1104DF9E7ADC0B9EB7B1DBD6C /* PMBaseAdRequestPrivate.h */,
+				72ED2D9F84D535D8A0D0CA99344CCF60 /* PMBrowserBackPNG.h */,
+				DDC6E349857B278718D202FF9D493A9F /* PMBrowserForwardPNG.h */,
+				0C3D2BCA3C627E56EB70ECB67C008E49 /* PMCommunicator.h */,
+				9AD634B309780806E78ECD11B2383CC4 /* PMCommunicator.m */,
+				32DFC2FD1E724850A036E5F9944482CC /* PMConstants.h */,
+				76CD667358C942AF2E280A1E7685BF99 /* PMConstants.m */,
+				F60E8317F9493C51780B9CE14AFE7B2C /* PMError.h */,
+				32E7DFBA25F4B5026A029909E38AB469 /* PMError.m */,
+				ED6879B92791CE0B17434DF654AB7E6E /* PMLogger.h */,
+				CCF2B2522E49361ED098B87934EE5647 /* PMLogger.m */,
+				5CAC72CB0C4C27D62231452B75872B38 /* PMNetworkHandler.h */,
+				13F4EB0A6793F65921D677470E30D079 /* PMNetworkHandler.m */,
+				95B22B9DE92183B63B4120EDA0809263 /* PMSDKUtil.h */,
+				FD2ADB70EBA42A7BDCD53874DF2DB37C /* PMSDKUtil.m */,
+				371E61320D55685BCF96C0E15F5445B2 /* PubMaticSDK.h */,
+				B431AE13432FCE47293E8FF7663D8E43 /* PubMaticSDK.m */,
+				05F8478672B48CC1EF917B33C71BC3D4 /* RRFormatterDelegate.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		DA13BDFDA26500C83D9B0519B7E59E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A38DAF3494C8495195C7CF8CD69BCEB /* libPods-SampleAS24PubMaticCocoaPods.a */,
+				EF23678A7FE04A230E40002FA383753F /* libPubMaticSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3F8C839A6C62BA6325E1FD1D8CB910 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				589472EBBCE759EA73164EF10AB0E60E /* AdSupport.framework */,
+				B9A7FDD5B2ECED452846F5A154B3BEFA /* CoreGraphics.framework */,
+				D7A66248F95931555177A344D1F045CF /* CoreLocation.framework */,
+				AD36429ED7BB34BF01FFEBB256CDFA69 /* CoreTelephony.framework */,
+				59B788C94735BA421BCFC7EA967705CB /* EventKit.framework */,
+				CEFA70DE130ADC05E51713152D57D176 /* EventKitUI.framework */,
+				B90491FC34BB958882E0AA88858E69F1 /* Foundation.framework */,
+				F4F7D71B7ACD020810A23C217A2C05EA /* MessageUI.framework */,
+				FE7945516102EC7017602FA2372B1790 /* SystemConfiguration.framework */,
+				C54CD4C0CF699861AE99837C97E8B102 /* UIKit.framework */,
+				7E61FDD399B827A3B365BF4575BC1E08 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB57DDB3388FBC701046A1E93218737F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F8C839A6C62BA6325E1FD1D8CB910 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B40F4413715DE9A61473826788FE9AF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF142023E0F557D4634DF47C40439D1B /* FoundationCategories.h in Headers */,
+				B85AF22C50D89AACF4CF57C423D5BD16 /* PMAdBrowser.h in Headers */,
+				F6CB03DCC63583440C78E5E8D621B921 /* PMAdDescriptor.h in Headers */,
+				A77E7E6A6776BDE448EBF5272D90CC30 /* PMAdRequest.h in Headers */,
+				F8DA30506363FEAC3FC33C61AD61E10A /* PMAdResponse.h in Headers */,
+				98C7EA27C0CB08546C74B2F053271EDA /* PMBannerAdDefaults.h in Headers */,
+				EC03674058FC6D03F3DAED777A840C3D /* PMBannerAdRequest.h in Headers */,
+				975D042AD52F10938638BBAAEF82AA7A /* PMBannerAdView.h in Headers */,
+				BC6712BBCEB2EE085DDF0784DF8A33D9 /* PMBannerAdViewDelegate.h in Headers */,
+				47DC7F918357FB87B26DCFF24244B7F4 /* PMBannerRRFormatter.h in Headers */,
+				0E2C9AC1E33CDB839347891D50F74DAE /* PMBaseAdRequest.h in Headers */,
+				6866498D6D53A063B5EF9B2440EFB27F /* PMBaseAdRequestPrivate.h in Headers */,
+				1551C5711E95A5BC7936099E1018570B /* PMBrowserBackPNG.h in Headers */,
+				CFD6238E52D42B6CD3D30ABEAA0F8A31 /* PMBrowserForwardPNG.h in Headers */,
+				FEE31CDDCC5315C9143902CDCDD34977 /* PMCloseButtonPNG.h in Headers */,
+				CC54634417F0954530592340A6227264 /* PMCommunicator.h in Headers */,
+				0EE448DA0D2880BA246BEA9E32E4F560 /* PMConstants.h in Headers */,
+				4FE53E7413EDBD47882A4C3314561799 /* PMError.h in Headers */,
+				1EB31C770C1687655682B7CDBE5BE2FB /* PMInterstitialAd.h in Headers */,
+				4E4A224DD6049C8EEEA50F9ED8AF2F35 /* PMInterstitialAdDelegate.h in Headers */,
+				864EB149C42E6089A064B4207511B2B8 /* PMInterstitialAdRequest.h in Headers */,
+				8833753EC81696AD83BA785FA4D1C2B9 /* PMLogger.h in Headers */,
+				D19268AC40D9577AF1FA57EFF12DBB69 /* PMModalViewController.h in Headers */,
+				2ED1C2B008BBED54D52EA5FB6CCD9206 /* PMMRAIDBridge.h in Headers */,
+				389E23E2A611B95775B60B50E9C17FE8 /* PMMRAIDProperties.h in Headers */,
+				BD9DBD9A9A867D0703BEB709186AF6B6 /* PMNativeAd.h in Headers */,
+				2FAE998767DD07DB6AC86F30596DFAE2 /* PMNativeAdConstants.h in Headers */,
+				F83040B29042D0F1C25DFCC9EBA97C85 /* PMNativeAdDelegate.h in Headers */,
+				61A4E1AFCFD5A35BBF6771140D00F624 /* PMNativeAdRequest.h in Headers */,
+				AF46D3C59232B9FBFFA1B62D7738AEAF /* PMNativeAdResponse.h in Headers */,
+				2A790F461C1F1F3B09C3B087E771DE96 /* PMNativeAdRRFormatter.h in Headers */,
+				DE12A5D3BD9DEE8200C45B27E0043868 /* PMNativeAssetRequest.h in Headers */,
+				90E755EFCC295D8F15BCC5B8785F2837 /* PMNativeAssetResponse.h in Headers */,
+				12F937C3239AA8DE2BBAB594ABD26CD4 /* PMNativeAssetTypes.h in Headers */,
+				B19B5E8AE716F5D02857A38D3A02A226 /* PMNetworkHandler.h in Headers */,
+				8F846360E6530268EA5E6E4581BAF0B4 /* PMResponseParser.h in Headers */,
+				390C81D1AB7012EE607EFC7E9753B0C6 /* PMSDKUtil.h in Headers */,
+				DD542A45BB394628BEAA8B3C93BF4585 /* PubMaticSDK.h in Headers */,
+				D13C4CBFFAF5778B45D4AB3AA3F6998A /* RRFormatterDelegate.h in Headers */,
+				6A194ABD17B5E41814CEC5E8A086EC7C /* UIWebView+PMBannerAdView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		004D4D278EF5941575E1FA73BA88665B /* Pods-SampleAS24PubMaticCocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A089A307A09C4E2DB2412F3C98DFA298 /* Build configuration list for PBXNativeTarget "Pods-SampleAS24PubMaticCocoaPods" */;
+			buildPhases = (
+				F560D4094F52A79054621D74F5F94C52 /* Sources */,
+				7B45A9F4B47FD39FBE84879CA21CE24E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABAB8B072710ADA704FB71E98A73DC36 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleAS24PubMaticCocoaPods";
+			productName = "Pods-SampleAS24PubMaticCocoaPods";
+			productReference = 8A38DAF3494C8495195C7CF8CD69BCEB /* libPods-SampleAS24PubMaticCocoaPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3BADCD705A420BBF7510B4B8E66EF788 /* PubMaticSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A206B3596C81F33C09ED2E4497A53DD1 /* Build configuration list for PBXNativeTarget "PubMaticSDK" */;
+			buildPhases = (
+				DF4580771007A45E57FB5A993B237926 /* Sources */,
+				DB68D75E3E1F28EB403C8C3A3272360D /* Frameworks */,
+				B40F4413715DE9A61473826788FE9AF6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PubMaticSDK;
+			productName = PubMaticSDK;
+			productReference = EF23678A7FE04A230E40002FA383753F /* libPubMaticSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DA13BDFDA26500C83D9B0519B7E59E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004D4D278EF5941575E1FA73BA88665B /* Pods-SampleAS24PubMaticCocoaPods */,
+				3BADCD705A420BBF7510B4B8E66EF788 /* PubMaticSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4580771007A45E57FB5A993B237926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED927A8BAFCA79D0BCE610E37609103 /* FoundationCategories.m in Sources */,
+				FFAF5C095A40ECB87D512B8D5783E824 /* PMAdBrowser.m in Sources */,
+				BED467D8342D2F8622739D737B7A00CC /* PMAdDescriptor.m in Sources */,
+				CF77DD4E754EF4456DB781F543705D8D /* PMAdRequest.m in Sources */,
+				F5A1F948293054A7034CE76E31576610 /* PMAdResponse.m in Sources */,
+				AFC5B20C75AB1635F98BDB592699436E /* PMBannerAdRequest.m in Sources */,
+				515A402D6D46F5E74DDFB4F3AD300FE6 /* PMBannerAdView.m in Sources */,
+				92A5C235631B9D48F0747F80DC551958 /* PMBannerRRFormatter.m in Sources */,
+				D9ABF7673AB82E25B0EC8E044D9C055B /* PMBaseAdRequest.m in Sources */,
+				D274B789DD7C84172BA068F85FDB71C1 /* PMCommunicator.m in Sources */,
+				7BAEDFF1847DEE58DD22DAD9351120AF /* PMConstants.m in Sources */,
+				C282B0AB52852E2D3D9485BF01EF5066 /* PMError.m in Sources */,
+				3B20C77B7A9B95E6CC0738E80378C94A /* PMInterstitialAd.m in Sources */,
+				E24AD11838726C4B738F3FE8DA001EFC /* PMInterstitialAdRequest.m in Sources */,
+				A564F029C424D09B99A7C460BCA974BE /* PMLogger.m in Sources */,
+				BF948B094B67734BF6AD3466F75DAEEC /* PMModalViewController.m in Sources */,
+				973F346ADAD945FD239128D9C1D2A61C /* PMMRAIDBridge.m in Sources */,
+				0329642BF2B42E5A18DEDFDD0989EF0F /* PMMRAIDProperties.m in Sources */,
+				2DBAD42CAD740BDAEB92CDDE3601ED6C /* PMNativeAd.m in Sources */,
+				3CA8BCD66DA0DA89EEA7FEFF0F2121E7 /* PMNativeAdRequest.m in Sources */,
+				0F23585FE298B52DB6733C9F8C89C03C /* PMNativeAdResponse.m in Sources */,
+				C33C22D001345E02F9DF0AEB49E0E154 /* PMNativeAdRRFormatter.m in Sources */,
+				C4F0A4E6C60458808D5008647F9752C6 /* PMNativeAssetRequest.m in Sources */,
+				1E41A12CFD40FE1D1F49C52393789399 /* PMNativeAssetResponse.m in Sources */,
+				5D3DCACBE72A651922AF3AC43BCB9438 /* PMNetworkHandler.m in Sources */,
+				C895C053401C5D25C46B536A9A1C272D /* PMResponseParser.m in Sources */,
+				D329946D3A241B303B29AD51027FD5D3 /* PMSDKUtil.m in Sources */,
+				5F92BD83DC9E580CE3D8315D8746AE75 /* PubMaticSDK-dummy.m in Sources */,
+				B18CC1683A3D983EE79ACEF3847CD09E /* PubMaticSDK.m in Sources */,
+				87B208B2C32B50A3465BCB5096333FEE /* UIWebView+PMBannerAdView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F560D4094F52A79054621D74F5F94C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B737E4ED54F80500FB6A43AFC99A11BE /* Pods-SampleAS24PubMaticCocoaPods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABAB8B072710ADA704FB71E98A73DC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PubMaticSDK;
+			target = 3BADCD705A420BBF7510B4B8E66EF788 /* PubMaticSDK */;
+			targetProxy = 4A827A9C9967193E95A0A1FF109DC0D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		341F1DE9DDF706520158B2DCC45E6358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F290E9F9C7E7C44B99AD741AB787BB7F /* PubMaticSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PubMaticSDK/PubMaticSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PubMaticSDK;
+				PRODUCT_NAME = PubMaticSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65DE0B5A79A233CEA988F4A3BD181E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6003394AE190854E613B587EDBF4FD /* Pods-SampleAS24PubMaticCocoaPods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7035AE10B609F708C980219832F04ABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F290E9F9C7E7C44B99AD741AB787BB7F /* PubMaticSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PubMaticSDK/PubMaticSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PubMaticSDK;
+				PRODUCT_NAME = PubMaticSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B13B436C744E3F02538A07F53E92E3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716243E5CC7DCA101F8E08AE2243E242 /* Pods-SampleAS24PubMaticCocoaPods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A089A307A09C4E2DB2412F3C98DFA298 /* Build configuration list for PBXNativeTarget "Pods-SampleAS24PubMaticCocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13B436C744E3F02538A07F53E92E3F0 /* Debug */,
+				65DE0B5A79A233CEA988F4A3BD181E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A206B3596C81F33C09ED2E4497A53DD1 /* Build configuration list for PBXNativeTarget "PubMaticSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7035AE10B609F708C980219832F04ABF /* Debug */,
+				341F1DE9DDF706520158B2DCC45E6358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
