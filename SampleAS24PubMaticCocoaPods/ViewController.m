@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[self view] setBackgroundColor:[UIColor whiteColor]];
     
 //    [self.tableView registerClass:[VehicleCell class] forCellReuseIdentifier:@"VehicleCell"];
 //    [self.tableView registerClass:[PubMaticCell class] forCellReuseIdentifier:@"PubMaticCell"];
