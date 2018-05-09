@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <PubMaticSDK/PMBannerAdViewDelegate.h>
+#import <PubMaticSDK/PMBannerAdView.h>
 
 @interface PubMaticCell : UITableViewCell <PMBannerAdViewDelegate>
 

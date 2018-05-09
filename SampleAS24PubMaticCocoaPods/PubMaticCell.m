@@ -7,7 +7,6 @@
 //
 
 #import "PubMaticCell.h"
-#import <PubMaticSDK/PMBannerAdView.h>
 
 @interface PubMaticCell ()
 @property (nonatomic) PMBannerAdView *adView;
