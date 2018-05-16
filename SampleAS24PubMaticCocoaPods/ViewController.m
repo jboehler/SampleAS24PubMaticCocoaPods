@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import "VehicleCell.h"
-//#import "PubMaticCell.h"
+#import "PubMaticCell.h"
+#import "Settings.h"
 
 @interface ViewController ()
 
@@ -20,8 +21,8 @@
     [super viewDidLoad];
     [[self view] setBackgroundColor:[UIColor whiteColor]];
     
-//    [self.tableView registerClass:[VehicleCell class] forCellReuseIdentifier:@"VehicleCell"];
-//    [self.tableView registerClass:[PubMaticCell class] forCellReuseIdentifier:@"PubMaticCell"];
+    [self.tableView registerClass:[VehicleCell class] forCellReuseIdentifier:@"VehicleCell"];
+    [self.tableView registerClass:[PubMaticCell class] forCellReuseIdentifier:@"PubMaticCell"];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -36,13 +37,24 @@
     BOOL isPubMatiCell = [self isPubMatiCellAtIndexPath:indexPath];
     NSString *cellIdentifier = isPubMatiCell ? @"PubMaticCell" : @"VehicleCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    if(isPubMatiCell) {
+        PubMaticCell *pubMaticCell = (PubMaticCell *)cell;
+        [pubMaticCell loadRequest];
+    }
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+//    if([cell isKindOfClass: PubMaticCell.class]) {
+//        PubMaticCell *pubMaticCell = (PubMaticCell *)cell;
+//        [pubMaticCell loadRequest];
+//    }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     BOOL isPubMatiCell = [self isPubMatiCellAtIndexPath:indexPath];
     if(isPubMatiCell) {
-        return 160;
+        return [Settings sharedInstance].adHeight;
     }
     return 150;
 }
@@ -50,6 +62,5 @@
 - (BOOL)isPubMatiCellAtIndexPath:(NSIndexPath *)indexPath {
     return indexPath.row % 10 == 9;
 }
-
 
 @end

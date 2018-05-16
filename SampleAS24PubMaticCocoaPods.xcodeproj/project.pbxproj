@@ -14,6 +14,8 @@
 		55452478209711E9006B6CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55452477209711E9006B6CE8 /* main.m */; };
 		5545248220971239006B6CE8 /* VehicleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5545247E20971238006B6CE8 /* VehicleCell.m */; };
 		5545248320971239006B6CE8 /* PubMaticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5545248020971238006B6CE8 /* PubMaticCell.m */; };
+		5578E94220AC51C30045F56F /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5578E94120AC51C30045F56F /* Settings.m */; };
+		5578E94520AC52DF0045F56F /* UIView+ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5578E94420AC52DF0045F56F /* UIView+ParentViewController.m */; };
 		55C15CFE2097153E00720A1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C15CFD2097153E00720A1D /* Foundation.framework */; };
 		55C15D09209715A500720A1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C15CFF209715A400720A1D /* CoreGraphics.framework */; };
 		55C15D0A209715A500720A1D /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C15D00209715A400720A1D /* EventKit.framework */; };
@@ -43,6 +45,10 @@
 		5545247F20971238006B6CE8 /* PubMaticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PubMaticCell.h; sourceTree = "<group>"; };
 		5545248020971238006B6CE8 /* PubMaticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PubMaticCell.m; sourceTree = "<group>"; };
 		5545248120971239006B6CE8 /* VehicleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCell.h; sourceTree = "<group>"; };
+		5578E94020AC51C30045F56F /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		5578E94120AC51C30045F56F /* Settings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		5578E94320AC52DF0045F56F /* UIView+ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ParentViewController.h"; sourceTree = "<group>"; };
+		5578E94420AC52DF0045F56F /* UIView+ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ParentViewController.m"; sourceTree = "<group>"; };
 		55C15CFD2097153E00720A1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55C15CFF209715A400720A1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		55C15D00209715A400720A1D /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -138,10 +144,14 @@
 				5545248020971238006B6CE8 /* PubMaticCell.m */,
 				5545248120971239006B6CE8 /* VehicleCell.h */,
 				5545247E20971238006B6CE8 /* VehicleCell.m */,
+				5578E94020AC51C30045F56F /* Settings.h */,
+				5578E94120AC51C30045F56F /* Settings.m */,
 				55452471209711E9006B6CE8 /* Assets.xcassets */,
 				55452473209711E9006B6CE8 /* LaunchScreen.storyboard */,
 				55452476209711E9006B6CE8 /* Info.plist */,
 				55452477209711E9006B6CE8 /* main.m */,
+				5578E94320AC52DF0045F56F /* UIView+ParentViewController.h */,
+				5578E94420AC52DF0045F56F /* UIView+ParentViewController.m */,
 			);
 			path = SampleAS24PubMaticCocoaPods;
 			sourceTree = "<group>";
@@ -240,6 +250,8 @@
 			files = (
 				5545248220971239006B6CE8 /* VehicleCell.m in Sources */,
 				5545248320971239006B6CE8 /* PubMaticCell.m in Sources */,
+				5578E94220AC51C30045F56F /* Settings.m in Sources */,
+				5578E94520AC52DF0045F56F /* UIView+ParentViewController.m in Sources */,
 				5545246D209711E9006B6CE8 /* ViewController.m in Sources */,
 				55452478209711E9006B6CE8 /* main.m in Sources */,
 				5545246A209711E9006B6CE8 /* AppDelegate.m in Sources */,
@@ -308,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -357,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

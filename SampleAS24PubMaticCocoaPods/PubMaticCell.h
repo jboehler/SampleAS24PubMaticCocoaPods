@@ -10,5 +10,6 @@
 #import <PubMaticSDK/PMBannerAdView.h>
 
 @interface PubMaticCell : UITableViewCell <PMBannerAdViewDelegate>
-
+@property (nonatomic) PMBannerAdView *adView;
+- (void)loadRequest;
 @end
