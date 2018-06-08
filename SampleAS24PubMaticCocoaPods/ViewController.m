@@ -30,7 +30,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1000;
+    return 1; // 1000;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -54,13 +54,13 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     BOOL isPubMatiCell = [self isPubMatiCellAtIndexPath:indexPath];
     if(isPubMatiCell) {
-        return [Settings sharedInstance].adHeight;
+        return PMBANNER_SIZE_300x250.height;
     }
     return 150;
 }
 
 - (BOOL)isPubMatiCellAtIndexPath:(NSIndexPath *)indexPath {
-    return indexPath.row % 10 == 9;
+    return indexPath.row % 10 == 0;
 }
 
 @end
